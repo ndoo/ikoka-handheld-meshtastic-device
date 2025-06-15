@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 3.2,
-          "width": 1.27
+          "drill": 1.4,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,19 +60,63 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|219895082|104525000|44fd8d27-ca52-493c-b144-a19089b2c3e8|eb57c595-96fe-4e93-802e-531c180a97f0",
+          "annular_width|150500000|89063499|e4b7c38d-f75b-4725-9292-382be19b8830|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "courtyards_overlap|223994999|91105000|44fd8d27-ca52-493c-b144-a19089b2c3e8|89574bc8-0061-4b0a-85ce-1bef9545a17a",
+          "courtyards_overlap|133273148|50390000|7b6be2d2-1248-48d2-afe8-d51f3a4add42|bbfe5c80-6a59-48df-a31c-aae1d35a19ed",
           ""
         ],
         [
-          "lib_footprint_mismatch|177000000|100000000|320433e6-296f-4f91-b2ee-faaea555575d|00000000-0000-0000-0000-000000000000",
+          "courtyards_overlap|159225000|90055000|a372a199-a57c-4613-980d-e8847517b5cc|eb643f49-2b74-40ad-a16c-a4972f35d8a7",
           ""
         ],
         [
-          "text_thickness|189250000|94750000|a7a6fe2f-d25c-45a5-b37d-841bd05203f5|00000000-0000-0000-0000-000000000000",
+          "courtyards_overlap|162275000|90370140|a9cdeefb-5b28-446c-b3df-dccbc8df4669|eb643f49-2b74-40ad-a16c-a4972f35d8a7",
+          ""
+        ],
+        [
+          "courtyards_overlap|162975000|82955000|32efe31b-fe65-438b-a093-b0040a29a7d8|8031c510-53c3-4c91-b993-d2a3b70e89f3",
+          ""
+        ],
+        [
+          "courtyards_overlap|164475000|82955000|74d8ea2e-2b17-4ff3-8643-2f28888a1227|8031c510-53c3-4c91-b993-d2a3b70e89f3",
+          ""
+        ],
+        [
+          "courtyards_overlap|164619715|96445000|e4886ed8-bd35-4be2-8dd2-ea797720e246|eb643f49-2b74-40ad-a16c-a4972f35d8a7",
+          ""
+        ],
+        [
+          "courtyards_overlap|167273143|50390000|77bb4633-098d-43ae-9e0a-f6e2d87a842f|bbfe5c80-6a59-48df-a31c-aae1d35a19ed",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|139500000|42342500|cdebd5d0-176f-45a8-bd2f-ebdde7ca1630|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|146114499|90311799|44fd8d27-ca52-493c-b144-a19089b2c3e8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|149227500|47500000|dad8b3a1-f58b-42ba-ba6d-74303c8df699|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|166727500|81500000|afa7c72c-a5a0-467c-be6e-f3dbf110a29f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|166727500|88250000|322f41fd-deb5-491c-8828-b2ca58b59e6d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|167000000|85000000|1a19c139-1753-4d68-bad6-752505d5cc1a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|150000000|78200000|a7a6fe2f-d25c-45a5-b37d-841bd05203f5|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -135,14 +179,14 @@
         "tracks_crossing": "error",
         "unconnected_items": "error",
         "unresolved_variable": "error",
-        "via_dangling": "warning",
+        "via_dangling": "ignore",
         "zones_intersect": "error"
       },
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.16,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.4,
+        "min_copper_edge_clearance": 0.3,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.2,
@@ -206,6 +250,8 @@
       "track_widths": [
         0.0,
         0.16,
+        0.5,
+        0.6873,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -462,7 +508,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
