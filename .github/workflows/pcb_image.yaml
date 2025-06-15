@@ -3,6 +3,7 @@ on:
   push:
     branches:
     - main
+  workflow_dispatch:
 jobs:
   render-image:
     name: render-image
@@ -14,7 +15,7 @@ jobs:
     - name: render pcb image
       uses: linalinn/kicad-render@main
       with:
-        pcb_file: ikoka-stick-meshtastic-device.kicad_pcb
+        pcb_file: ikoka-handheld-meshtastic-device.kicad_pcb
         output_path: ${{ github.workspace }}/images
         background: transparent # Remove for no transparency
         animation: gif
