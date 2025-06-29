@@ -4591,6 +4591,12 @@
 		(uuid "1e507cb6-62ae-40f2-aa6c-ac29cc954d97")
 	)
 	(junction
+		(at 245.11 135.255)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20398bf7-7768-43b4-9574-eddc26f483d3")
+	)
+	(junction
 		(at 143.51 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4679,6 +4685,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b57838b-6f40-4939-9977-d006632472a5")
+	)
+	(junction
+		(at 241.3 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65c168f9-2682-4bd7-97dd-249b32b711e6")
 	)
 	(junction
 		(at 241.3 135.255)
@@ -4895,6 +4907,16 @@
 			(type default)
 		)
 		(uuid "028c4ad9-9ca9-4ff2-a1a5-269e00c60db8")
+	)
+	(wire
+		(pts
+			(xy 254.635 135.255) (xy 245.11 135.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a8c0b5-a921-49a1-9b77-7237397542a8")
 	)
 	(wire
 		(pts
@@ -6268,6 +6290,16 @@
 	)
 	(wire
 		(pts
+			(xy 254.635 115.57) (xy 241.3 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2a3b5cb-65ab-45ae-9bcc-eae6a8033368")
+	)
+	(wire
+		(pts
 			(xy 156.21 101.6) (xy 156.21 99.06)
 		)
 		(stroke
@@ -6375,6 +6407,16 @@
 			(type default)
 		)
 		(uuid "ab2b6fb4-8a9b-4a47-93c3-07e97cd8f993")
+	)
+	(wire
+		(pts
+			(xy 254.635 123.19) (xy 254.635 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac651928-13ef-491f-91d5-e95edcdc61c9")
 	)
 	(wire
 		(pts
@@ -6545,6 +6587,16 @@
 			(type default)
 		)
 		(uuid "c1e54bf7-21d2-4f4b-a685-5690b279b180")
+	)
+	(wire
+		(pts
+			(xy 254.635 130.81) (xy 254.635 135.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2cb950c-3879-42d3-9065-bfae5aaade5d")
 	)
 	(wire
 		(pts
@@ -8159,6 +8211,85 @@
 			(project "ikoka-stick-meshtastic-device"
 				(path "/d817f34c-2aa5-4c70-878b-29719eb987fe"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 254.635 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f799569-ec02-476d-a159-8b4ff120a638")
+		(property "Reference" "C12"
+			(at 257.81 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 257.81 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 255.6002 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254.635 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 254.635 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C59461"
+			(at 258.445 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5658906-5e47-403a-9a50-1e43391cefbc")
+		)
+		(pin "2"
+			(uuid "7b3b854b-81a4-4888-aca7-5a4bfd599364")
+		)
+		(instances
+			(project "ikoka-handheld-meshtastic-device"
+				(path "/d817f34c-2aa5-4c70-878b-29719eb987fe"
+					(reference "C12")
 					(unit 1)
 				)
 			)
