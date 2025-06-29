@@ -68,6 +68,14 @@
           ""
         ],
         [
+          "courtyards_overlap|137150000|79105000|1ed8b0fd-f1ed-4329-9103-48ca5134a877|44fd8d27-ca52-493c-b144-a19089b2c3e8",
+          ""
+        ],
+        [
+          "courtyards_overlap|137150000|79275000|44fd8d27-ca52-493c-b144-a19089b2c3e8|8863207c-dda3-42ed-a99c-bf7785598221",
+          ""
+        ],
+        [
           "courtyards_overlap|159225000|90055000|a372a199-a57c-4613-980d-e8847517b5cc|eb643f49-2b74-40ad-a16c-a4972f35d8a7",
           ""
         ],
@@ -89,6 +97,14 @@
         ],
         [
           "courtyards_overlap|167273143|50390000|77bb4633-098d-43ae-9e0a-f6e2d87a842f|bbfe5c80-6a59-48df-a31c-aae1d35a19ed",
+          ""
+        ],
+        [
+          "footprint_type_mismatch|157750000|81750000|c09207c9-c091-43cd-a026-326b86a6a2a2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_type_mismatch|157750000|87750000|a372a199-a57c-4613-980d-e8847517b5cc|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -116,6 +132,66 @@
           ""
         ],
         [
+          "silk_edge_clearance|138696367|96263999|e9ddfdbd-5fca-4ce8-be34-1454b76e60b0|dd647c4d-8375-4a62-ada8-0ca08ada30ad",
+          ""
+        ],
+        [
+          "silk_edge_clearance|139070000|100037000|e9ddfdbd-5fca-4ce8-be34-1454b76e60b0|9f2eaf84-3369-4699-8c85-6003e8d0e36d",
+          ""
+        ],
+        [
+          "silk_edge_clearance|141551000|100037000|e9ddfdbd-5fca-4ce8-be34-1454b76e60b0|706fe99b-bab2-40a8-80aa-fe0c729623c1",
+          ""
+        ],
+        [
+          "silk_edge_clearance|150550000|100037000|e9ddfdbd-5fca-4ce8-be34-1454b76e60b0|fd2da099-b8a0-4ef0-8e15-3e5119daf413",
+          ""
+        ],
+        [
+          "silk_edge_clearance|153433101|96271999|e9ddfdbd-5fca-4ce8-be34-1454b76e60b0|7e6ae51a-81ba-44cb-85fc-9f2a3d01a9ec",
+          ""
+        ],
+        [
+          "silk_edge_clearance|155155000|99874999|e9ddfdbd-5fca-4ce8-be34-1454b76e60b0|7cefef4c-d0bb-4fcf-aa43-ebfc8007dd42",
+          ""
+        ],
+        [
+          "silk_over_copper|136121375|76975957|b79bc90f-6d9b-4bfb-ba79-790f294d428a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|137165000|96069200|d1c2cd19-e89d-4451-9f80-98dc8ba3c0b6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|137165000|98132000|dd647c4d-8375-4a62-ada8-0ca08ada30ad|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|137171547|81144800|feecc7b6-7f27-4ea9-ab2b-0cad9b70c70f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|139810348|79082001|5f702307-283a-4e03-b18f-03779a3ebb20|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|154938453|81144800|d0ecd4ff-1e4e-40c8-8733-8cc32fbea4a2|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|154944682|98101199|7e6ae51a-81ba-44cb-85fc-9f2a3d01a9ec|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|154944788|98170340|b0b7d575-2fe1-48b4-a2e2-faa5c44fe97c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_overlap|165040000|83496363|a8b125c0-bca7-4157-a303-ad41b58672a8|c1b909b4-dfbe-4b67-b658-14c3a1ff0fd7",
+          ""
+        ],
+        [
           "text_height|150000000|78200000|a7a6fe2f-d25c-45a5-b37d-841bd05203f5|00000000-0000-0000-0000-000000000000",
           ""
         ]
@@ -137,9 +213,9 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
@@ -153,17 +229,17 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "error",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "error",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "ignore",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_edge_clearance": "error",
+        "silk_over_copper": "error",
+        "silk_overlap": "error",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -528,7 +604,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ikoka-stick-meshtastic-device.kicad_pro",
+    "filename": "ikoka-handheld-meshtastic-device.kicad_pro",
     "version": 3
   },
   "net_settings": {
