@@ -11698,7 +11698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Display:OLED-128O064D"
+		(property "Footprint" "Display:OLED-128O064D_ReverseMount"
 			(at 158.75 146.05 0)
 			(effects
 				(font
