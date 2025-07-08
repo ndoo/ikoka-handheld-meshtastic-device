@@ -3963,11 +3963,11 @@
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 		(layer "F.Cu")
 		(uuid "77bb4633-098d-43ae-9e0a-f6e2d87a842f")
-		(at 167 47.9625 -90)
+		(at 167 48)
 		(descr "Mounting Hole 2.2mm, M2")
 		(tags "mounting hole 2.2mm m2")
 		(property "Reference" "H2"
-			(at 0 -3.2 90)
+			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "14c78941-255a-484a-a474-5f8241a1b0dd")
@@ -3979,8 +3979,9 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.2 90)
+			(at 0 3.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1dcba3b0-96f9-4ac3-9a7e-5debff276801")
 			(effects
 				(font
@@ -3990,7 +3991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4003,7 +4004,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4043,7 +4044,7 @@
 			(uuid "249128e3-12b6-4a76-90aa-1ee078af769a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "66c09263-1faa-4e7d-a045-442251416652")
 			(effects
@@ -4054,7 +4055,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at -1.65 0 270)
+			(at -1.65 0)
 			(size 0.7 0.7)
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
@@ -4066,7 +4067,7 @@
 			(uuid "7909566a-0603-4088-83d1-60a12ac0937d")
 		)
 		(pad "1" thru_hole circle
-			(at -1.166726 -1.166726 270)
+			(at -1.166726 -1.166726)
 			(size 0.7 0.7)
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
@@ -4078,7 +4079,7 @@
 			(uuid "50900615-f9b6-4ac3-a947-fdc87a7fad9f")
 		)
 		(pad "1" thru_hole circle
-			(at -1.166726 1.166726 270)
+			(at -1.166726 1.166726)
 			(size 0.7 0.7)
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
@@ -4090,7 +4091,7 @@
 			(uuid "a0eebcbb-20e6-44b2-a580-00038e653207")
 		)
 		(pad "1" thru_hole circle
-			(at 0 -1.65 270)
+			(at 0 -1.65)
 			(size 0.7 0.7)
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
@@ -4102,7 +4103,7 @@
 			(uuid "0cc76bfb-9aa6-4565-94ff-d24990f625c9")
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 270)
+			(at 0 0)
 			(size 4.4 4.4)
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
@@ -4113,7 +4114,7 @@
 			(uuid "14708997-ff0a-4205-acbf-9d6d749ed72f")
 		)
 		(pad "1" thru_hole circle
-			(at 0 1.65 270)
+			(at 0 1.65)
 			(size 0.7 0.7)
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
@@ -4125,7 +4126,7 @@
 			(uuid "6ba84237-4f69-41b7-a995-b38ccb0fb0a2")
 		)
 		(pad "1" thru_hole circle
-			(at 1.166726 -1.166726 270)
+			(at 1.166726 -1.166726)
 			(size 0.7 0.7)
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
@@ -4137,7 +4138,7 @@
 			(uuid "419c111d-5ba7-420d-bfb8-598e11debb4d")
 		)
 		(pad "1" thru_hole circle
-			(at 1.166726 1.166726 270)
+			(at 1.166726 1.166726)
 			(size 0.7 0.7)
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
@@ -4149,7 +4150,7 @@
 			(uuid "e1605b0e-d3e4-4270-854d-3d261fef5b0b")
 		)
 		(pad "1" thru_hole circle
-			(at 1.65 0 270)
+			(at 1.65 0)
 			(size 0.7 0.7)
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
@@ -4165,14 +4166,14 @@
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
 		(layer "F.Cu")
 		(uuid "7b6be2d2-1248-48d2-afe8-d51f3a4add42")
-		(at 133 47.962501 -90)
+		(at 133 48)
 		(descr "Mounting Hole 2.2mm, M2")
 		(tags "mounting hole 2.2mm m2")
 		(property "Reference" "H1"
-			(at 0 -3.2 90)
+			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7e7a8665-8493-4c15-b0b5-e98304581865")
+			(uuid "49d27c2f-e763-432c-b979-d7812d8354ed")
 			(effects
 				(font
 					(size 1 1)
@@ -4181,9 +4182,10 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.2 90)
+			(at 0 3.2 0)
 			(layer "F.Fab")
-			(uuid "0dff236d-fe1e-4d8e-a80d-aa3eaade63ff")
+			(hide yes)
+			(uuid "7b28f41a-0615-4297-b05d-848f0fa75ad9")
 			(effects
 				(font
 					(size 1 1)
@@ -4192,11 +4194,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6471ed6-91bc-4f9c-a898-a863dee4bea1")
+			(uuid "3f9cfe98-7b62-472e-82d6-9ab47c505f36")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4205,11 +4207,11 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 0 0 270)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ca50f0a-3542-4990-a1e3-6d1ea7744039")
+			(uuid "6cad6d51-a863-4055-ae6b-aee9547396d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +4247,7 @@
 			(uuid "f12b6598-290d-40e6-b184-858e0d18533a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0561bd54-9a8a-41a9-94ce-631caeed101b")
 			(effects
@@ -4256,7 +4258,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at -1.65 0 270)
+			(at -1.65 0)
 			(size 0.7 0.7)
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
@@ -4268,7 +4270,7 @@
 			(uuid "9c09b864-05f5-4c60-a5a7-e915fa6cfe0b")
 		)
 		(pad "1" thru_hole circle
-			(at -1.166726 -1.166726 270)
+			(at -1.166726 -1.166726)
 			(size 0.7 0.7)
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
@@ -4280,7 +4282,7 @@
 			(uuid "f701345b-0104-450b-a205-51c09672e7da")
 		)
 		(pad "1" thru_hole circle
-			(at -1.166726 1.166726 270)
+			(at -1.166726 1.166726)
 			(size 0.7 0.7)
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
@@ -4292,7 +4294,7 @@
 			(uuid "73979da1-a55a-48b2-8951-50cbe926caab")
 		)
 		(pad "1" thru_hole circle
-			(at 0 -1.65 270)
+			(at 0 -1.65)
 			(size 0.7 0.7)
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
@@ -4304,7 +4306,7 @@
 			(uuid "8eeb1472-2082-455d-ba0c-4e391c87828b")
 		)
 		(pad "1" thru_hole circle
-			(at 0 0 270)
+			(at 0 0)
 			(size 4.4 4.4)
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
@@ -4315,7 +4317,7 @@
 			(uuid "fdc18767-c320-4edd-a1fb-5455ade48e8b")
 		)
 		(pad "1" thru_hole circle
-			(at 0 1.65 270)
+			(at 0 1.65)
 			(size 0.7 0.7)
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
@@ -4327,7 +4329,7 @@
 			(uuid "ec337a68-b44b-47d9-bc34-6c40ebf05e12")
 		)
 		(pad "1" thru_hole circle
-			(at 1.166726 -1.166726 270)
+			(at 1.166726 -1.166726)
 			(size 0.7 0.7)
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
@@ -4339,7 +4341,7 @@
 			(uuid "cafab7e1-cf61-41bd-aa98-d6a00c2f158e")
 		)
 		(pad "1" thru_hole circle
-			(at 1.166726 1.166726 270)
+			(at 1.166726 1.166726)
 			(size 0.7 0.7)
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
@@ -4351,7 +4353,7 @@
 			(uuid "fbb7ff9c-d1f4-46a8-8a06-8e4c2182a22b")
 		)
 		(pad "1" thru_hole circle
-			(at 1.65 0 270)
+			(at 1.65 0)
 			(size 0.7 0.7)
 			(drill 0.4)
 			(layers "*.Cu" "*.Mask")
@@ -9722,6 +9724,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "8293530f-4863-4f14-8b7d-26aa6d209c40")
 			(effects
 				(font
@@ -10519,6 +10522,7 @@
 		(property "Value" "MountingHole"
 			(at 0 3.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "fbd45565-18c5-4bff-88ce-28e55df03659")
 			(effects
 				(font
@@ -11800,6 +11804,386 @@
 				(bold yes)
 			)
 			(justify top)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "198777c7-4f73-4993-bef5-6dc593397bda")
+		(pts
+			(xy 133 48) (xy 133 45)
+		)
+		(height -5)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "3"
+			(at 126.85 46.5 90)
+			(layer "Dwgs.User")
+			(uuid "198777c7-4f73-4993-bef5-6dc593397bda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "3381870a-512e-4baa-ad6e-5dc6032064ef")
+		(pts
+			(xy 133 48) (xy 167 48)
+		)
+		(height -5)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "34"
+			(at 150 41.85 0)
+			(layer "Dwgs.User")
+			(uuid "3381870a-512e-4baa-ad6e-5dc6032064ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "5569d377-80fe-4999-b2c7-507a5a7c3578")
+		(pts
+			(xy 167 97) (xy 170 97)
+		)
+		(height 6)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "3"
+			(at 168.5 101.85 0)
+			(layer "Dwgs.User")
+			(uuid "5569d377-80fe-4999-b2c7-507a5a7c3578")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "814f7bba-b31b-4163-bf4e-7c9a5401e599")
+		(pts
+			(xy 130 45) (xy 170 45)
+		)
+		(height -5)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "40"
+			(at 150 38.85 0)
+			(layer "Dwgs.User")
+			(uuid "814f7bba-b31b-4163-bf4e-7c9a5401e599")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "83a70435-5ad2-4b85-bb9b-166c22ea9c2d")
+		(pts
+			(xy 130 45) (xy 130 100)
+		)
+		(height -5)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "55"
+			(at 123.85 72.5 90)
+			(layer "Dwgs.User")
+			(uuid "83a70435-5ad2-4b85-bb9b-166c22ea9c2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "8dbaa3ea-ad0c-4eb4-aa47-bc184a9098dd")
+		(pts
+			(xy 139.5 47.1025) (xy 130 47.1025)
+		)
+		(height -13.1025)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "9.5"
+			(at 134.75 32.85 0)
+			(layer "Dwgs.User")
+			(uuid "8dbaa3ea-ad0c-4eb4-aa47-bc184a9098dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "bb253414-f306-4b21-9273-056d089cfcd1")
+		(pts
+			(xy 167 48) (xy 170 47.9625)
+		)
+		(height -5.4625)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "3"
+			(at 168.5 41.3875 0)
+			(layer "Dwgs.User")
+			(uuid "bb253414-f306-4b21-9273-056d089cfcd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "cf797071-9abe-4546-bda2-eca53ced6443")
+		(pts
+			(xy 133 97) (xy 130 100)
+		)
+		(height 6)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "3"
+			(at 131.5 101.85 0)
+			(layer "Dwgs.User")
+			(uuid "cf797071-9abe-4546-bda2-eca53ced6443")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "dec5b191-f81b-404a-90ea-4479a069dd2f")
+		(pts
+			(xy 133 48) (xy 130 48)
+		)
+		(height -5)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "3"
+			(at 131.5 41.85 0)
+			(layer "Dwgs.User")
+			(uuid "dec5b191-f81b-404a-90ea-4479a069dd2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "fda81b14-a181-4269-97bf-d0928ffcacdc")
+		(pts
+			(xy 167 97) (xy 167 100)
+		)
+		(height 6)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "3"
+			(at 171.85 98.5 90)
+			(layer "Dwgs.User")
+			(uuid "fda81b14-a181-4269-97bf-d0928ffcacdc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 	)
 	(segment
