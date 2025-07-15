@@ -12332,7 +12332,7 @@
 				)
 			)
 		)
-		(property "Value" "MT3608"
+		(property "Value" "MT3608B"
 			(at 45.72 30.48 0)
 			(effects
 				(font

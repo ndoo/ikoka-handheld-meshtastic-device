@@ -1019,7 +1019,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19702"
+		(property "LCSC" "C59461"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2661,7 +2661,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19702"
+		(property "LCSC" "C59461"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3623,7 +3623,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "LCSC" "C59461"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4635,7 +4635,7 @@
 				)
 			)
 		)
-		(property "Value" "MT3608"
+		(property "Value" "MT3608B"
 			(at 0 2.4 270)
 			(layer "F.Fab")
 			(uuid "675ea1ab-e26a-4d34-8437-72e352e18132")
@@ -4670,7 +4670,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19189893"
+		(property "LCSC" "C2932326"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -9279,7 +9279,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19666"
+		(property "LCSC" "C59461"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
