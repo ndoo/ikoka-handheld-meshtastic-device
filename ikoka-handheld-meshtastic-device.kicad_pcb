@@ -5571,7 +5571,7 @@
 			(roundrect_rratio 0.25)
 			(net 27 "unconnected-(U4-~{STDBY}-Pad6)")
 			(pinfunction "~{STDBY}")
-			(pintype "open_collector")
+			(pintype "open_collector+no_connect")
 			(uuid "316d5683-1d1c-4dac-8df6-5f531d717a11")
 		)
 		(pad "7" smd roundrect
