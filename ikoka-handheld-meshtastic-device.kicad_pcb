@@ -1019,7 +1019,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C59461"
+		(property "LCSC" "C19702"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2661,7 +2661,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C59461"
+		(property "LCSC" "C19702"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3588,7 +3588,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "4.7uF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "3b0b343e-8bb4-4fbb-9c2d-9293e135f30d")
@@ -3623,7 +3623,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C59461"
+		(property "LCSC" "C19666"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4670,7 +4670,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2932326"
+		(property "LCSC" "C19189893"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -7181,7 +7181,7 @@
 				)
 			)
 		)
-		(property "Value" "270k"
+		(property "Value" "300k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "f67f54ec-208a-4538-86dc-96be5850a684")
@@ -9244,7 +9244,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "4.7uF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "9e1e73c6-034c-4770-bcc0-1a9fbfbac84f")
@@ -9279,7 +9279,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C59461"
+		(property "LCSC" "C19666"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

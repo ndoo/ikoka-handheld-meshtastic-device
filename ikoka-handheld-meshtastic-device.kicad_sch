@@ -7674,7 +7674,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "270k"
+		(property "Value" "300k"
 			(at 135.89 182.8799 0)
 			(effects
 				(font
@@ -9290,7 +9290,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "4.7uF"
 			(at 147.32 182.8799 0)
 			(effects
 				(font
@@ -10800,7 +10800,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "4.7uF"
 			(at 129.54 144.7799 0)
 			(effects
 				(font
