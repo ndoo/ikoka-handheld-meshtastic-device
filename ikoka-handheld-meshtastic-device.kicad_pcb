@@ -2892,7 +2892,7 @@
 		(path "/abd4a5ce-01e2-48dd-a13d-ee2bc17c0b1e")
 		(sheetname "/")
 		(sheetfile "ikoka-handheld-meshtastic-device.kicad_sch")
-		(attr exclude_from_bom dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start 8.835 8.513)
 			(end 8.835 -8.632)
@@ -3345,6 +3345,17 @@
 			(uuid "6dfa208f-3048-4598-8ae2-aceac6f28f7a")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3dmodels/XIAO-nRF52840 v15.step"
+			(offset
+				(xyz 6.055 -1.75 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
