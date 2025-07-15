@@ -11830,7 +11830,7 @@
 		)
 	)
 	(gr_text "JLCJLCJLCJLC"
-		(at 150 63.25 0)
+		(at 141 70 0)
 		(layer "F.SilkS")
 		(uuid "8238a11c-ed95-423b-a6ce-b14312974773")
 		(effects
