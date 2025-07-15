@@ -8891,6 +8891,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 224.79 121.92 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8904,20 +8905,20 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.5k"
 			(at 222.25 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 223.012 121.92 90)
+			(at 226.568 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8944,7 +8945,7 @@
 			)
 		)
 		(property "LCSC" "C23024"
-			(at 227.33 120.6499 0)
+			(at 222.25 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8986,7 +8987,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "300k"
 			(at 48.26 90.1699 0)
 			(effects
 				(font
@@ -13224,7 +13225,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.5k"
 			(at 59.69 90.1699 0)
 			(effects
 				(font
