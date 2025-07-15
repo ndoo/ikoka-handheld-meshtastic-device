@@ -10047,7 +10047,7 @@
 				)
 			)
 		)
-		(property "Value" "FTC303015D220MBCA"
+		(property "Value" "FNR3015S2R2MT"
 			(at 45.72 22.86 90)
 			(effects
 				(font
@@ -10055,7 +10055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_MAPI-3015"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR3015S"
 			(at 45.72 25.4 0)
 			(effects
 				(font
@@ -11268,7 +11268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Seeed Studio XIAO Series Library:XIAO-nRF52840-SMD"
+		(property "Footprint" "Seeed Studio XIAO Series Library:XIAO-nRF52840-SMD_Handsoldering"
 			(at 41.91 160.02 0)
 			(effects
 				(font
