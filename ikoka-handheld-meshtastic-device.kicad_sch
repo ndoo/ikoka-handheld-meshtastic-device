@@ -7457,7 +7457,7 @@
 				)
 			)
 		)
-		(property "Value" "DSK26"
+		(property "Value" "DSK34"
 			(at 67.6275 87.63 0)
 			(effects
 				(font
@@ -7492,7 +7492,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7502712"
+		(property "LCSC" "C22466353"
 			(at 67.6275 90.17 0)
 			(effects
 				(font
@@ -10168,7 +10168,7 @@
 				)
 			)
 		)
-		(property "Value" "FNR3015S2R2MT"
+		(property "Value" "FTC303018D4R7MBCA"
 			(at 45.72 22.86 90)
 			(effects
 				(font
@@ -10176,7 +10176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Changjiang_FNR3015S"
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FTC303018D"
 			(at 45.72 25.4 0)
 			(effects
 				(font
@@ -11217,7 +11217,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
 		(at 273.05 158.75 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11260,15 +11260,6 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
-			(at 273.05 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 273.05 158.75 0)
 			(effects
 				(font
@@ -12047,7 +12038,7 @@
 				)
 			)
 		)
-		(property "Value" "DSK26"
+		(property "Value" "DSK34"
 			(at 60.0075 21.59 0)
 			(effects
 				(font
@@ -12082,7 +12073,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C7502712"
+		(property "LCSC" "C22466353"
 			(at 60.0075 19.05 0)
 			(effects
 				(font
