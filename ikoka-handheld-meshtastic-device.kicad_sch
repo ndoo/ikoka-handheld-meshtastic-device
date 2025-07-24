@@ -4541,6 +4541,12 @@
 		(uuid "1e507cb6-62ae-40f2-aa6c-ac29cc954d97")
 	)
 	(junction
+		(at 133.35 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ea0ae4c-fd0a-4e8d-b3b9-46e96b1b9a5f")
+	)
+	(junction
 		(at 143.51 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4637,6 +4643,12 @@
 		(uuid "7895a038-d44d-4347-b71d-9b038c33351c")
 	)
 	(junction
+		(at 133.35 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8486e1f6-bc0c-43cb-b496-ee35fe76a221")
+	)
+	(junction
 		(at 54.61 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4727,6 +4739,12 @@
 		(uuid "debdf7de-02fc-471d-8176-70c105650977")
 	)
 	(junction
+		(at 129.54 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e06eb629-202f-4f71-a272-13f01ea92fdc")
+	)
+	(junction
 		(at 143.51 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4755,6 +4773,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecb7509c-bf0c-4937-accd-fbfc0d30042c")
+	)
+	(junction
+		(at 129.54 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffaa859e-0bbb-44a1-87ba-9ae3a7754258")
 	)
 	(no_connect
 		(at 45.72 142.24)
@@ -5056,6 +5080,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 151.13) (xy 146.05 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0c9645-a388-42e2-b278-2ffb539ef53b")
+	)
+	(wire
+		(pts
 			(xy 161.29 105.41) (xy 161.29 107.95)
 		)
 		(stroke
@@ -5216,6 +5250,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 128.27) (xy 133.35 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a75e19-757c-4c56-ba3d-81f574beaee2")
+	)
+	(wire
+		(pts
 			(xy 172.72 105.41) (xy 172.72 107.95)
 		)
 		(stroke
@@ -5296,6 +5340,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 128.27) (xy 146.05 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b3a0a82-91d8-4219-9311-1320dfab184c")
+	)
+	(wire
+		(pts
 			(xy 50.8 92.71) (xy 50.8 102.87)
 		)
 		(stroke
@@ -5303,6 +5357,16 @@
 			(type default)
 		)
 		(uuid "3ddc3d5a-eebb-4a9f-940a-8f2330dd5fc4")
+	)
+	(wire
+		(pts
+			(xy 129.54 129.54) (xy 129.54 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee30ed9-3178-4b66-b256-780cbc0476ac")
 	)
 	(wire
 		(pts
@@ -5536,6 +5600,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 137.16) (xy 129.54 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bfa7a18-1915-49c2-8fac-5a2d0e82fb70")
+	)
+	(wire
+		(pts
 			(xy 220.98 58.42) (xy 243.84 58.42)
 		)
 		(stroke
@@ -5633,6 +5707,16 @@
 			(type default)
 		)
 		(uuid "671d5b0b-1fd2-421f-ad8d-f01709818da9")
+	)
+	(wire
+		(pts
+			(xy 133.35 153.67) (xy 143.51 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb42e5b-3bd4-4372-8c75-75387ada09fa")
 	)
 	(wire
 		(pts
@@ -6326,13 +6410,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 128.27) (xy 146.05 128.27)
+			(xy 125.73 128.27) (xy 129.54 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c027d137-5a62-427d-94d9-80ee824e327e")
+	)
+	(wire
+		(pts
+			(xy 129.54 128.27) (xy 133.35 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c137fbd4-510c-492c-aac6-809497730dcb")
 	)
 	(wire
 		(pts
@@ -6346,7 +6440,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 153.67) (xy 143.51 153.67)
+			(xy 114.3 153.67) (xy 133.35 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6516,7 +6610,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 151.13) (xy 146.05 151.13)
+			(xy 114.3 151.13) (xy 129.54 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6713,6 +6807,16 @@
 			(type default)
 		)
 		(uuid "f59a94a5-f628-4276-8116-e65502d9ad9e")
+	)
+	(wire
+		(pts
+			(xy 133.35 137.16) (xy 133.35 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6f3fb78-fea0-478f-8257-638f33656834")
 	)
 	(wire
 		(pts
@@ -9100,6 +9204,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 133.35 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56830144-6a2c-4670-bece-36b88ddcd914")
+		(property "Reference" "R7"
+			(at 130.81 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 130.81 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 135.128 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 133.35 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 130.81 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cab24b6c-fb8d-47d2-8089-c14170c95729")
+		)
+		(pin "2"
+			(uuid "e05df4e7-7abc-434f-93d5-35b922cb4789")
+		)
+		(instances
+			(project "ikoka-handheld-meshtastic-device"
+				(path "/d817f34c-2aa5-4c70-878b-29719eb987fe"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 143.51 181.61 0)
 		(unit 1)
@@ -10547,6 +10731,86 @@
 			(project "ikoka-stick-meshtastic-device"
 				(path "/d817f34c-2aa5-4c70-878b-29719eb987fe"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90a2f639-a1da-484f-a76c-5ec3e1abd191")
+		(property "Reference" "R6"
+			(at 127 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 127 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 131.318 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 127 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bcc1a7b-2b74-4139-8e7c-ec9ffaab4cb1")
+		)
+		(pin "2"
+			(uuid "31314334-451a-4a03-a145-338de589f4a4")
+		)
+		(instances
+			(project "ikoka-handheld-meshtastic-device"
+				(path "/d817f34c-2aa5-4c70-878b-29719eb987fe"
+					(reference "R6")
 					(unit 1)
 				)
 			)
